@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="Css/style.css">
+</head>
+<body>
+	<div class="im-content">
+		<div class="text">
+			<img src="nii4.jpg">
+			<div class="simg">
+				<h2>V</h2>
+				<p>check</p>
+				<!-- <img src=""> -->
+			</div>
+		</div>
+	</div>
+</body>
+
+<style type="text/css">
+
+	.text{
+		position: relative;
+		overflow: hidden;
+		border-radius: 8px;
+		cursor: pointer;
+	}
+
+	.text img{
+		width: 50%;
+		height: 30;
+		border-radius: 8px;
+		display: block;
+		transition: transform 0.5s;
+	}
+	.simg{
+		width: 50%;
+		height: 0;
+/*		background: linear-gradient(rgba(0,0,0,0.1),#ff004f);*/
+/*		background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50% ,rgb(0, 0, 0, 0.5)50%),url(../nii4.jpg) ;*/
+		background-image: url(nii1.jpg);
+		background-position: center;
+		background-size: cover;
+		position: absolute;
+		border-radius: 8px;
+		left: 0;
+		bottom: 0;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 0 40px;
+		transition: height 0.5s;
+	}
+	
+	.text:hover img{
+/*		transform: scale(1.1);*/
+	}
+
+	.text:hover .simg{
+		height: 100%;
+	}*/
+</style>
+
+</html>
